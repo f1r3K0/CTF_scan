@@ -1,15 +1,11 @@
-# WeakFileScan
+# CTF_Scan
 
-a small WeakFileScanner for CTF
-
-(e.g.  robots.txt  index.swp  .git/config  .svn/entries  index.phps  ......)
-
-
+Used for CTFer
 ```
 Usage :
-	python wfscan.py -u [URL]
-	python wfscan.py -l [FILENAME]
+	python CTFscan.py -u [URL]
+	python CTFscan.py -l [FILENAME]
 Example :
-	python wfscan.py -u http://baidu.com
-	python wfscan.py -l targets.txt
+	python CTFscan.py -u http://baidu.com
+	python CTFscan.py -l targets.txt
 ```
